@@ -30,3 +30,9 @@ ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
 ```
+
+```rust
+let test = vec![1,2,3,4];
+dbg!(&test);
+
+```
