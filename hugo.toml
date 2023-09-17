@@ -3,6 +3,28 @@ languageCode = 'en-us'
 title = 'HBchevelle68'
 theme = 'HB_archie'
 
+# Using Archie syntax highlighter
+# pygmentsstyle = "github-dark"
+# pygmentscodefences = true
+# pygmentscodefencesguesssyntax = true
+
+# Using Hugo syntax highlighter
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'catppuccin-mocha'
+tabWidth = 4
+
 
 [[params.social]]
 name = "GitHub"
