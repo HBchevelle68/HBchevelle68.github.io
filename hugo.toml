@@ -1,0 +1,20 @@
+baseURL = 'https://HBchevelle68.github.io/'
+languageCode = 'en-us'
+title = 'HBchevelle68'
+theme = 'HB_archie'
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/HBchevelle68"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
