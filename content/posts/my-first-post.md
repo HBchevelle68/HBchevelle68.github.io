@@ -29,12 +29,17 @@ fn main() {
 }
 ```
 
-{{< highlight rust >}}
-fn main() {
+```c
+int main(int argc, char** argv) {
 
-    let test = vec![1,2,3];
-    
-    dbg!(test);
-
+    printf("This is a test!\n");
+    return 0;
 }
-{{< / highlight >}}
+```
+
+```python
+
+def test_func(msg : str) -> Int:
+    print(msg)
+    return 1
+```
